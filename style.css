@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.wrapper{
+    height: 100vh;
+    width: 100vh;
+    overflow-y: none;
+    scroll-behavior: none;
+
+
+}
+.image{
+    width: 175%;
+    position: relative;
+    filter: brightness(60%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    z-index: -1;
+   
+}
+.info{
+position: absolute;
+font-size: 45px;
+top:40%;
+left:17%;
+color:white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.info2{
+position: absolute;
+top:50%;
+left:35%;
+color: white;
+font-family:sans-serif;
+}
+.info3{
+    position: absolute;
+    top:55%;
+    left:20%;
+    color: white;
+    font-family: sans-serif;
+    }
+.inbt{
+    position:absolute;
+    top:65%;
+    left:30%
+}
+.inpt{
+   all:unset;
+   height: 50px;
+   width: 350px;
+   border:2px solid white;
+   border-radius: 5px;
+   background-color: rgba(0, 0, 0, 0.531);
+}
+input::placeholder{
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}
+.btn{
+    all: unset;
+    position: absolute;
+    top: 0%;
+    height: 50px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.908);
+    margin-left: 10px;
+    color:white;
+    border: 2px solid rgba(255, 0, 0, 0.908);
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.logo{
+    height: 50px;
+    width:200px;
+    position: absolute;
+    top:3%;
+    left: 10%;
+}
+.btnn{
+    position: absolute;
+    top:3%;
+    right: 10%;
+}
+.english{
+    all: unset;
+    height: 30px;
+    width: 100px;
+    border:1px solid white;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.signin{
+    all: unset;
+    height: 30px;
+    width: 80px;
+    background-color: red;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    border: 2px solid red;
+    border-radius: 5px;
+    margin-left: 10px;
+}
